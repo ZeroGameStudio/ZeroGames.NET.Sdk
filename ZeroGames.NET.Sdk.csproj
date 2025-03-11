@@ -1,0 +1,28 @@
+<!-- Copyright Zero Games. All Rights Reserved. -->
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>ZeroGames.NET.Sdk</PackageId>
+    <PackageType>MSBuildSdk</PackageType>
+    <PackageVersion>1.0.0-beta.1</PackageVersion>
+    <Authors>Lin7Han</Authors>
+    <Description>Common configurations for Zero Games .NET projects.</Description>
+    <Copyright>Copyright Zero Games. All Rights Reserved.</Copyright>
+    <PackageProjectUrl>https://github.com/ZeroGameStudio/ZeroGames.NET.Sdk</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ZeroGameStudio/ZeroGames.NET.Sdk</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIconUrl>Icon.png</PackageIconUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>ZeroGames SDK</PackageTags>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Sdk/**" Pack="true" PackagePath="Sdk/" />
+    <None Include="README.md" Pack="true" PackagePath="/" />
+    <None Include="Icon.png" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+</Project>
