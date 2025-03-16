@@ -5,7 +5,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>ZeroGames.NET.Sdk</PackageId>
     <PackageType>MSBuildSdk</PackageType>
-    <PackageVersion>1.0.0-beta.1</PackageVersion>
+    <PackageVersion>1.0.0</PackageVersion>
     <Authors>Lin7Han</Authors>
     <Description>Common configurations for Zero Games .NET projects.</Description>
     <Copyright>Copyright Zero Games. All Rights Reserved.</Copyright>
